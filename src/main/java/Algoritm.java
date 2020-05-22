@@ -15,6 +15,6 @@ public class Algoritm {
         num = 15; System.out.println("Фибоначи для "+num+" равно "+ Fibonachi.getFromNumer(num));
         num = 25; System.out.println("Фибоначи для "+num+" равно "+ Fibonachi.getFromNumer(num));
         num = 35; System.out.println("Фибоначи для "+num+" равно "+ Fibonachi.getFromNumer(num));
-        num = 45; System.out.println("Фибоначи для "+num+" равно "+ Fibonachi.getFromNumer(num));
+        num = 45; System.out.println("Фибоначи для "+num+" равно "+ Fibonachi.getFromNumer2(num));
     }
 }
