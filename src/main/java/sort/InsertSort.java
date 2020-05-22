@@ -3,6 +3,11 @@ package sort;
 import java.util.List;
 
 public class InsertSort {
+    /**
+     * сложность О(n*n)
+     * @param array - входные данные
+     * @return - результирующий массив(для того чтобы можноло в стиле stream использовать)
+     */
     public static List<Integer> insertSort(List<Integer> array){
         for (int i = 1; i < array.size(); i++)
         {
